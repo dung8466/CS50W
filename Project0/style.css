@@ -1,0 +1,85 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+input, button, textarea, select {
+  font: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+#root, #__next {
+  isolation: isolate;
+}
+body, input, button{
+  font-size: 14px;
+  font-family: arial,sans-serif;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+a{
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.navbar{
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  gap: 2rem;
+  margin: 2rem;
+}
+.inputSearch{
+  display: flex;
+  border-radius: 24px;
+  width: 500px;
+  max-width: 584px;
+  height: 44px;
+  box-shadow: none;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.inputBtn{
+  border-radius: 4px;
+  padding: 0;
+  padding: 0 16px;
+  line-height: 27px;
+  text-align: center;
+  cursor: pointer;
+  height: 36px;
+}
+.field{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.advancedForm{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  clear: both;
+  margin-left: 10rem;
+}

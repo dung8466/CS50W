@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title></title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar">
+    <a href="index.html">Search</a>
+    <a href="search-img.html">Image Search</a>
+    <a href="advanced-search.html">Advanced Search</a>
+  </nav>
+  <form action="https://google.com/search" name="f" class="advancedForm">
+    <div class="field">
+      <label for="field1">all these words:</label>
+      <input type="text" class="inputSearch" id="field1" value="" name="as_q">
+    </div>
+    <br>
+    <div class="field">
+      <label for="field2">this exact word or phrase: </label>
+      <input type="text" class="inputSearch" id="field2" value="" name="as_epq">
+    </div>
+    <br>
+    <div class="field">
+      <label for="field3">any of this words: </label>
+      <input type="text" class="inputSearch" id="field3" value="" name="as_oq">
+    </div>
+    <br>
+    <div class="field">
+      <label for="field4">none of these words: </label>
+      <input type="text" class="inputSearch" id="field4" value="" name="as_eq">
+    </div>
+    <br>
+    <div class="field">
+      <label for="field5">numbers ranging from: </label>
+      <input type="text" class="inputSearch" id="field5" value="" name="as_nlo">
+      <span class="seperator">to</span>
+      <input type="text" class="inputSearch" id="field5" value="" name="as_nhi">
+    </div>
+    <input type="submit" value="advanced search" class="inputBtn">
+  </form>
+
+</body>
+
+</html>
